@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "WWW",
+    "WWW",
+    "WWW"
+  ],
+  "key": {
+    "W": {
+      "item": "wither:wither_nugget"
+    }
+  },
+  "result": {
+    "item": "wither:wither_unenriched_ingot",
+    "count": 1
+  }
+}

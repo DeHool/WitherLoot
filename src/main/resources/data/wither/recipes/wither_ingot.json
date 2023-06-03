@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft:wither_rose"
+  },
+  "addition": {
+    "item": "wither:wither_unenriched_ingot"
+  },
+  "result": {
+    "item": "wither:wither_ingot"
+  }
+}

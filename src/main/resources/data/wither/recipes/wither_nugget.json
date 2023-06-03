@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "wither:wither_dust"
+  },
+  "result": "wither:wither_nugget",
+  "experience": 10,
+  "cookingtime": 180
+}
