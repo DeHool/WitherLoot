@@ -1,6 +1,6 @@
-package net.fabricmc.wither.mixin;
+package net.fabricmc.wither_loot.mixin;
 
-import net.fabricmc.wither.WitherMod;
+import net.fabricmc.wither_loot.WitherMod;
 import net.minecraft.client.gui.screen.TitleScreen;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;

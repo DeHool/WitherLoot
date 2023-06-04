@@ -4,9 +4,9 @@
     "item": "minecraft:wither_rose"
   },
   "addition": {
-    "item": "wither:wither_unenriched_ingot"
+    "item": "wither_loot:wither_unenriched_ingot"
   },
   "result": {
-    "item": "wither:wither_ingot"
+    "item": "wither_loot:wither_ingot"
   }
 }

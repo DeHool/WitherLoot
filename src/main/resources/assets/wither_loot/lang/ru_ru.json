@@ -1,0 +1,9 @@
+{
+  "item.wither_loot.wither_dust": "Иссушенная пыль",
+  "item.wither_loot.wither_nugget": "Иссушенный самородок",
+  "item.wither_loot.wither_unenriched_ingot": "Необогащенный иссушенный слиток",
+  "item.wither_loot.wither_ingot": "Иссушенный слиток",
+
+
+  "itemGroup.wither_loot.witherloot_group": "WitherLoot"
+}

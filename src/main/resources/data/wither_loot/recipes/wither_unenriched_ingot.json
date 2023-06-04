@@ -7,11 +7,11 @@
   ],
   "key": {
     "W": {
-      "item": "wither:wither_nugget"
+      "item": "wither_loot:wither_nugget"
     }
   },
   "result": {
-    "item": "wither:wither_unenriched_ingot",
+    "item": "wither_loot:wither_unenriched_ingot",
     "count": 1
   }
 }
