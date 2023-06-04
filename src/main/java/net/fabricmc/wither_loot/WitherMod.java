@@ -2,6 +2,7 @@ package net.fabricmc.wither_loot;
 
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.client.itemgroup.FabricItemGroupBuilder;
+import net.fabricmc.wither_loot.init.ConfigInit;
 import net.fabricmc.wither_loot.item.WiItems;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
@@ -22,5 +23,6 @@ public class WitherMod implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		WiItems.registerWiItems();
+		ConfigInit.init();
 	}
 }

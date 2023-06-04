@@ -21,6 +21,9 @@
   "entrypoints": {
     "main": [
       "net.fabricmc.wither_loot.WitherMod"
+    ],
+    "modmenu": [
+      "net.fabricmc.wither_loot.config.ModMenuIntegration"
     ]
   },
   "mixins": [
