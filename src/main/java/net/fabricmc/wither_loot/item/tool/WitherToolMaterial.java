@@ -2,7 +2,6 @@ package net.fabricmc.wither_loot.item.tool;
 
 import net.fabricmc.wither_loot.init.ConfigInit;
 import net.fabricmc.wither_loot.init.ItemInit;
-import net.fabricmc.wither_loot.item.armor.WitherArmorMaterial;
 import net.minecraft.item.ToolMaterial;
 import net.minecraft.recipe.Ingredient;
 

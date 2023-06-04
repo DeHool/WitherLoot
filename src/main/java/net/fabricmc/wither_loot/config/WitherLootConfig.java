@@ -3,7 +3,6 @@ package net.fabricmc.wither_loot.config;
 import me.shedaniel.autoconfig.ConfigData;
 import me.shedaniel.autoconfig.annotation.Config;
 import me.shedaniel.autoconfig.annotation.ConfigEntry;
-import me.shedaniel.cloth.clothconfig.shadowed.blue.endless.jankson.Comment;
 
 @Config(name = "witherloot")
 @Config.Gui.Background("minecraft:textures/block/soul_sand.png")
