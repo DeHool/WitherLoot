@@ -3,7 +3,17 @@
   "item.wither_loot.wither_nugget": "Иссушенный самородок",
   "item.wither_loot.wither_unenriched_ingot": "Необогащенный иссушенный слиток",
   "item.wither_loot.wither_ingot": "Иссушенный слиток",
-
+  "item.wither_loot.wither_helmet": "Иссушенный шлем",
+  "item.wither_loot.wither_chestplate": "Иссушенный нагрудник",
+  "item.wither_loot.wither_leggings": "Иссушенные поножи",
+  "item.wither_loot.wither_boots": "Иссушенные ботинки",
+  "item.wither_loot.charged_wither_chestplate": "Заряженный иссушенный нагрудник",
+  "item.wither_loot.wither_pickaxe": "Иссушенная кирка",
+  "item.wither_loot.wither_axe": "Иссушенный топор",
+  "item.wither_loot.wither_shovel": "Иссушенная лопата",
+  "item.wither_loot.wither_hoe": "Иссушенная мотыга",
+  "item.wither_loot.wither_sword": "Иссушенный меч",
+  "item.wither_loot.wither_bow": "Иссушенный лук",
 
   "itemGroup.wither_loot.witherloot_group": "WitherLoot"
 }

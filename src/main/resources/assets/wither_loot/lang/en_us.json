@@ -3,11 +3,17 @@
   "item.wither_loot.wither_nugget": "Wither nugget",
   "item.wither_loot.wither_unenriched_ingot": "Unenriched wither ingot",
   "item.wither_loot.wither_ingot": "Wither ingot",
-
-
-
-
-
+  "item.wither_loot.wither_helmet": "Wither helmet",
+  "item.wither_loot.wither_chestplate": "Wither chestplate",
+  "item.wither_loot.wither_leggings": "Wither leggings",
+  "item.wither_loot.wither_boots": "Wither boots",
+  "item.wither_loot.charged_wither_chestplate": "Charged wither chestplate",
+  "item.wither_loot.wither_pickaxe": "Wither pickaxe",
+  "item.wither_loot.wither_axe": "Wither axe",
+  "item.wither_loot.wither_shovel": "Wither shovel",
+  "item.wither_loot.wither_hoe": "Wither hoe",
+  "item.wither_loot.wither_sword": "Wither sword",
+  "item.wither_loot.wither_bow": "Wither bow",
 
   "itemGroup.wither_loot.witherloot_group": "Witherrrr"
 }

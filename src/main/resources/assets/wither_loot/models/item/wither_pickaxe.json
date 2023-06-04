@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "wither_loot:item/wither_pickaxe"
+  }
+}
