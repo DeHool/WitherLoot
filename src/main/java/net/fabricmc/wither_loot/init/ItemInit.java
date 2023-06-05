@@ -1,18 +1,20 @@
 package net.fabricmc.wither_loot.init;
 
+import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.wither_loot.WitherMod;
-import net.fabricmc.wither_loot.item.WitherDustItem;
-import net.fabricmc.wither_loot.item.WitherIngotItem;
-import net.fabricmc.wither_loot.item.WitherNuggetItem;
-import net.fabricmc.wither_loot.item.WitherUnenrichedIngotItem;
+import net.fabricmc.wither_loot.item.*;
 import net.fabricmc.wither_loot.item.armor.custom.WitherArmorItem;
 import net.fabricmc.wither_loot.item.armor.WitherArmorMaterial;
 import net.fabricmc.wither_loot.item.tool.*;
 import net.fabricmc.wither_loot.item.weapon.WitherBowItem;
 import net.fabricmc.wither_loot.item.weapon.WitherSwordItem;
+import net.minecraft.client.font.GlyphAtlasTexture;
+import net.minecraft.client.font.GlyphRenderer;
+import net.minecraft.client.particle.EnchantGlyphParticle;
 import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.item.ArmorMaterial;
 import net.minecraft.item.Item;
+import net.minecraft.util.Rarity;
 import net.minecraft.util.registry.Registry;
 
 public class ItemInit {
@@ -26,6 +28,8 @@ public class ItemInit {
             new WitherIngotItem(new Item.Settings().fireproof().group(WitherMod.WiGroup));
     public static final WitherUnenrichedIngotItem WITHER_UNENRICHED_INGOT_ITEM =
             new WitherUnenrichedIngotItem(new Item.Settings().fireproof().group(WitherMod.WiGroup));
+    public static final WitherChargedStarItem WITHER_CHARGED_STAR_ITEM =
+            new WitherChargedStarItem(new Item.Settings().fireproof().rarity(Rarity.RARE).maxCount(1).group(WitherMod.WiGroup));
 
     // Armor
     public static final ArmorMaterial WITHER_ARMOR_MATERIAL = WitherArmorMaterial.getInstance();
@@ -67,6 +71,7 @@ public class ItemInit {
         Registry.register(Registry.ITEM, WitherMod.ID("wither_nugget"), WITHER_NUGGET_ITEM);
         Registry.register(Registry.ITEM, WitherMod.ID("wither_unenriched_ingot"), WITHER_UNENRICHED_INGOT_ITEM);
         Registry.register(Registry.ITEM, WitherMod.ID("wither_ingot"), WITHER_INGOT_ITEM);
+        Registry.register(Registry.ITEM, WitherMod.ID("wither_charged_star"), WITHER_CHARGED_STAR_ITEM);
         // Armor
         Registry.register(Registry.ITEM, WitherMod.ID("wither_helmet"), WITHER_HELMET);
         Registry.register(Registry.ITEM, WitherMod.ID("wither_chestplate"), WITHER_CHESTPLATE);

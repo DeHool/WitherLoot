@@ -42,7 +42,7 @@ public class WitherLootConfig implements ConfigData {
         public int wither_armor_enchantability = 15;
     }
 
-    @ConfigEntry.Category("armor")
+    @ConfigEntry.Category("tool")
     @ConfigEntry.Gui.TransitiveObject
     public Tool TOOL = new Tool();
 
