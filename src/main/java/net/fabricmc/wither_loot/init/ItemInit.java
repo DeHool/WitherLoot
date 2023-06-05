@@ -6,7 +6,9 @@ import net.fabricmc.wither_loot.item.WitherIngotItem;
 import net.fabricmc.wither_loot.item.WitherNuggetItem;
 import net.fabricmc.wither_loot.item.WitherUnenrichedIngotItem;
 import net.fabricmc.wither_loot.item.armor.custom.WitherArmorItem;
-import net.fabricmc.wither_loot.item.armor.WitherArmorMaterial;
+import net.fabricmc.wither_loot.item.armor.custom.WitherArmorMaterial;
+import net.fabricmc.wither_loot.item.armor.customUpper.WiUpperArmorMaterial;
+import net.fabricmc.wither_loot.item.armor.customUpper.WiUpperItem;
 import net.fabricmc.wither_loot.item.tool.*;
 import net.fabricmc.wither_loot.item.weapon.WitherBowItem;
 import net.fabricmc.wither_loot.item.weapon.WitherSwordItem;
@@ -29,6 +31,7 @@ public class ItemInit {
 
     // Armor
     public static final ArmorMaterial WITHER_ARMOR_MATERIAL = WitherArmorMaterial.getInstance();
+    public static final ArmorMaterial WI_UPPER_ARMOR_MATERIAL = WiUpperArmorMaterial.getInstance();
 
     public static final Item WITHER_HELMET =
             new WitherArmorItem(WITHER_ARMOR_MATERIAL, EquipmentSlot.HEAD, new Item.Settings().fireproof().group(WitherMod.WiGroup));
@@ -38,8 +41,10 @@ public class ItemInit {
             new WitherArmorItem(WITHER_ARMOR_MATERIAL, EquipmentSlot.LEGS, new Item.Settings().fireproof().group(WitherMod.WiGroup));
     public static final Item WITHER_BOOTS =
             new WitherArmorItem(WITHER_ARMOR_MATERIAL, EquipmentSlot.FEET, new Item.Settings().fireproof().group(WitherMod.WiGroup));
-    public static final Item WITHER_CHARGED_CHESTPLATE =
-            new WitherArmorItem(WITHER_ARMOR_MATERIAL, EquipmentSlot.CHEST, new Item.Settings().fireproof().group(WitherMod.WiGroup));
+
+    public static final Item WITHER_UPPER_CHEST =
+            new WiUpperItem(WI_UPPER_ARMOR_MATERIAL, EquipmentSlot.CHEST, new Item.Settings().fireproof().group(WitherMod.WiGroup));
+
 
     // Tools
     public static final WitherPickaxeItem WITHER_PICKAXE_ITEM =
@@ -72,7 +77,7 @@ public class ItemInit {
         Registry.register(Registry.ITEM, WitherMod.ID("wither_chestplate"), WITHER_CHESTPLATE);
         Registry.register(Registry.ITEM, WitherMod.ID("wither_leggings"), WITHER_LEGGINGS);
         Registry.register(Registry.ITEM, WitherMod.ID("wither_boots"), WITHER_BOOTS);
-        Registry.register(Registry.ITEM, WitherMod.ID("charged_wither_chestplate"), WITHER_CHARGED_CHESTPLATE);
+        Registry.register(Registry.ITEM, WitherMod.ID("wither_upper"), WITHER_UPPER_CHEST);
         // Tools
         Registry.register(Registry.ITEM, WitherMod.ID("wither_pickaxe"), WITHER_PICKAXE_ITEM);
         Registry.register(Registry.ITEM, WitherMod.ID("wither_shovel"), WITHER_SHOVEL_ITEM);

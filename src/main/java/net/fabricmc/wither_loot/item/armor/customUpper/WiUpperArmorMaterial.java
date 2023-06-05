@@ -1,20 +1,18 @@
-package net.fabricmc.wither_loot.item.armor;
+package net.fabricmc.wither_loot.item.armor.customUpper;
 
 import net.fabricmc.wither_loot.init.ConfigInit;
-import net.fabricmc.wither_loot.init.ItemInit;
 import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.item.ArmorMaterial;
 import net.minecraft.recipe.Ingredient;
 import net.minecraft.sound.SoundEvent;
-import net.minecraft.sound.SoundEvents;
 
-public class WitherArmorMaterial implements ArmorMaterial {
+public class WiUpperArmorMaterial implements ArmorMaterial {
 
-    private static WitherArmorMaterial INSTANCE = null;
+    private static WiUpperArmorMaterial INSTANCE = null;
 
-    public static WitherArmorMaterial getInstance() {
+    public static WiUpperArmorMaterial getInstance() {
         if (INSTANCE == null) {
-            INSTANCE = new WitherArmorMaterial();
+            INSTANCE = new WiUpperArmorMaterial();
         }
         return INSTANCE;
     }
@@ -24,41 +22,41 @@ public class WitherArmorMaterial implements ArmorMaterial {
 
     @Override
     public int getDurability(EquipmentSlot slot) {
-        return DURABILITY[slot.getEntitySlotId()];
+        return 0;
     }
 
     @Override
     public int getProtectionAmount(EquipmentSlot slot) {
-        return PROTECTION[slot.getEntitySlotId()];
+        return 0;
     }
 
     @Override
     public int getEnchantability() {
-        return ConfigInit.CONFIG.ARMOR.wither_armor_enchantability;
+        return 0;
     }
 
     @Override
     public SoundEvent getEquipSound() {
-        return SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE;
+        return null;
     }
 
     @Override
     public Ingredient getRepairIngredient() {
-        return Ingredient.ofItems(ItemInit.WITHER_INGOT_ITEM);
+        return null;
     }
 
     @Override
     public String getName() {
-        return "wither";
+        return null;
     }
 
     @Override
     public float getToughness() {
-        return ConfigInit.CONFIG.ARMOR.wither_armor_toughness;
+        return 0;
     }
 
     @Override
     public float getKnockbackResistance() {
-        return ConfigInit.CONFIG.ARMOR.wither_armor_knockback_resistance;
+        return 0;
     }
 }

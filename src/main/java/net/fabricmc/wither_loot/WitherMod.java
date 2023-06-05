@@ -5,6 +5,7 @@ import net.fabricmc.fabric.api.client.itemgroup.FabricItemGroupBuilder;
 import net.fabricmc.wither_loot.init.ConfigInit;
 import net.fabricmc.wither_loot.init.ItemInit;
 import net.fabricmc.wither_loot.item.armor.custom.WitherArmorRender;
+import net.fabricmc.wither_loot.item.armor.customUpper.WiUpperRender;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Items;
@@ -29,5 +30,8 @@ public class WitherMod implements ModInitializer {
 		ItemInit.itemInit();
 		GeoArmorRenderer.registerArmorRenderer(new WitherArmorRender(),
 				ItemInit.WITHER_BOOTS, ItemInit.WITHER_LEGGINGS, ItemInit.WITHER_CHESTPLATE, ItemInit.WITHER_HELMET);
+		GeoArmorRenderer.registerArmorRenderer(new WiUpperRender(),
+				ItemInit.WITHER_UPPER_CHEST);
+
 	}
 }

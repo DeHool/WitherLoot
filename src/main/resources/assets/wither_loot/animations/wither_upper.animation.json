@@ -1,0 +1,53 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"wither_upper.animation.json": {
+			"loop": true,
+			"animation_length": 6,
+			"bones": {
+				"effectFirstBody": {
+					"position": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"1.4583": {
+							"vector": [0, 0, -2],
+							"easing": "easeOutCubic"
+						},
+						"3.0": {
+							"vector": [0, 0, -0.25]
+						},
+						"4.75": {
+							"vector": [0, 0, -2]
+						},
+						"6.0": {
+							"vector": [0, 0, 0],
+							"easing": "easeOutQuint"
+						}
+					}
+				},
+				"effectSecondBody": {
+					"position": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.9167": {
+							"vector": [0, 0, -2],
+							"easing": "easeOutCubic"
+						},
+						"2.25": {
+							"vector": [0, 0, 0.52]
+						},
+						"3.875": {
+							"vector": [0, 0, -1.71]
+						},
+						"6.0": {
+							"vector": [0, 0, 0],
+							"easing": "easeInOutCubic"
+						}
+					}
+				}
+			}
+		}
+	}
+}
