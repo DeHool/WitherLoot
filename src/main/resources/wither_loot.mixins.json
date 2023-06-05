@@ -4,9 +4,10 @@
   "package": "net.fabricmc.wither_loot.mixin",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
+    "WitherItemMixin"
   ],
   "client": [
-    "ExampleMixin"
+    "WitherMixin"
   ],
   "injectors": {
     "defaultRequire": 1

@@ -1,9 +1,11 @@
 package net.fabricmc.wither_loot;
 
+import com.google.common.eventbus.Subscribe;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.client.itemgroup.FabricItemGroupBuilder;
 import net.fabricmc.wither_loot.init.ConfigInit;
 import net.fabricmc.wither_loot.init.ItemInit;
+import net.fabricmc.wither_loot.init.TagInit;
 import net.fabricmc.wither_loot.item.armor.custom.WitherArmorRender;
 import net.fabricmc.wither_loot.item.armor.customUpper.WiUpperRender;
 import net.minecraft.item.ItemGroup;
@@ -26,6 +28,7 @@ public class WitherMod implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		TagInit.tagInit();
 		ConfigInit.init();
 		ItemInit.itemInit();
 		GeoArmorRenderer.registerArmorRenderer(new WitherArmorRender(),
@@ -34,4 +37,8 @@ public class WitherMod implements ModInitializer {
 				ItemInit.WITHER_UPPER_CHEST);
 
 	}
+
+
+
+
 }
