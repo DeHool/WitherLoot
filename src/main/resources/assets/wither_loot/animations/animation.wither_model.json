@@ -3,25 +3,28 @@
 	"animations": {
 		"animation.wither_model.json": {
 			"loop": true,
-			"animation_length": 3,
-			"override_previous_animation": false,
+			"animation_length": 6,
+			"override_previous_animation": true,
 			"bones": {
 				"witherHead": {
 					"position": {
 						"0.0": {
 							"vector": [0, 0, 0]
 						},
-						"0.75": {
-							"vector": [0, 1, 0]
-						},
-						"1.5": {
-							"vector": [0, 0, 0]
-						},
-						"2.25": {
-							"vector": [0, -1, 0]
+						"1.75": {
+							"vector": [0, 1, 0],
+							"easing": "easeInOutCubic"
 						},
 						"3.0": {
 							"vector": [0, 0, 0]
+						},
+						"4.5": {
+							"vector": [0, -1, 0],
+							"easing": "easeInOutCubic"
+						},
+						"6.0": {
+							"vector": [0, 0, 0],
+							"easing": "easeOutExpo"
 						}
 					}
 				}

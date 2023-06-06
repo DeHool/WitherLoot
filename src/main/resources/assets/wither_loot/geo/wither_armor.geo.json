@@ -12,14 +12,6 @@
 			},
 			"bones": [
 				{
-					"name": "witherHead",
-					"pivot": [0, 24, 0],
-					"cubes": [
-						{"origin": [-12, 26, -2], "size": [5, 5, 5], "uv": [50, 13]},
-						{"origin": [7, 26, -2], "size": [5, 5, 5], "uv": [50, 13]}
-					]
-				},
-				{
 					"name": "bipedHead",
 					"pivot": [0, 24, 0]
 				},
@@ -37,6 +29,15 @@
 						{"origin": [4, 27, -3], "size": [1, 2, 7], "uv": [56, 38]},
 						{"origin": [4, 25, 0], "size": [1, 2, 4], "uv": [66, 47]},
 						{"origin": [-4, 30, -5], "size": [8, 2, 1], "uv": [62, 55]}
+					]
+				},
+				{
+					"name": "witherHead",
+					"parent": "armorHead",
+					"pivot": [0, 24, 0],
+					"cubes": [
+						{"origin": [-12, 26, -2], "size": [5, 5, 5], "uv": [50, 13]},
+						{"origin": [7, 26, -2], "size": [5, 5, 5], "uv": [50, 13]}
 					]
 				},
 				{
