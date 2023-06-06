@@ -7,13 +7,15 @@
   "item.wither_loot.wither_chestplate": "Иссушенный нагрудник",
   "item.wither_loot.wither_leggings": "Иссушенные поножи",
   "item.wither_loot.wither_boots": "Иссушенные ботинки",
-  "item.wither_loot.charged_wither_chestplate": "Заряженный иссушенный нагрудник",
+  "item.wither_loot.wither_upper": "Заряженный иссушенный нагрудник",
   "item.wither_loot.wither_pickaxe": "Иссушенная кирка",
   "item.wither_loot.wither_axe": "Иссушенный топор",
   "item.wither_loot.wither_shovel": "Иссушенная лопата",
   "item.wither_loot.wither_hoe": "Иссушенная мотыга",
   "item.wither_loot.wither_sword": "Иссушенный меч",
   "item.wither_loot.wither_bow": "Иссушенный лук",
+  "tooltip.wither_loot.inflicts_wither_effect": "Накладывает иссушение",
+  "tooltip.wither_loot.wither_armor_set_bonus": "В разработке",
 
   "itemGroup.wither_loot.witherloot_group": "WitherLoot"
 }

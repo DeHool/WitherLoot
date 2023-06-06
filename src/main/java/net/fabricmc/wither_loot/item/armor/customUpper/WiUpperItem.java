@@ -1,11 +1,9 @@
 package net.fabricmc.wither_loot.item.armor.customUpper;
 
 import com.google.common.collect.ImmutableMap;
-import net.fabricmc.wither_loot.effect.WUEffect;
 import net.fabricmc.wither_loot.item.armor.custom.WitherArmorMaterial;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.EquipmentSlot;
-import net.minecraft.entity.effect.StatusEffect;
 import net.minecraft.entity.effect.StatusEffectInstance;
 import net.minecraft.entity.effect.StatusEffects;
 import net.minecraft.entity.player.PlayerEntity;

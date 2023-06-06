@@ -53,8 +53,18 @@ public class WitherLootConfig implements ConfigData {
         @ConfigEntry.Gui.RequiresRestart
         public int wither_tool_mining_level = 5;
         @ConfigEntry.Gui.RequiresRestart
-        public float wither_tool_attack_damage = 7.0F;
-        @ConfigEntry.Gui.RequiresRestart
         public int wither_tool_enchantability = 20;
+    }
+
+    @ConfigEntry.Category("weapon")
+    @ConfigEntry.Gui.TransitiveObject
+    public Weapon WEAPON = new Weapon();
+
+    public static class Weapon {
+        @ConfigEntry.Gui.RequiresRestart
+        public int wither_sword_damage = 11;
+        @ConfigEntry.Gui.RequiresRestart
+        public int wither_axe_damage = 14;
+
     }
 }

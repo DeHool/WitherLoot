@@ -1,6 +1,5 @@
 package net.fabricmc.wither_loot.mixin;
 
-import net.fabricmc.wither_loot.item.tool.WitherToolMaterial;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.EntityType;
 import net.minecraft.entity.LivingEntity;

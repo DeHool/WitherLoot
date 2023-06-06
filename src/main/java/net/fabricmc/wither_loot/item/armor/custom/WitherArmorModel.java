@@ -2,7 +2,6 @@ package net.fabricmc.wither_loot.item.armor.custom;
 
 import net.fabricmc.wither_loot.WitherMod;
 import net.minecraft.util.Identifier;
-
 import software.bernie.geckolib3.model.AnimatedGeoModel;
 
 public class WitherArmorModel extends AnimatedGeoModel<WitherArmorItem> {

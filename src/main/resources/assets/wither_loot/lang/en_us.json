@@ -14,6 +14,8 @@
   "item.wither_loot.wither_hoe": "Wither hoe",
   "item.wither_loot.wither_sword": "Wither sword",
   "item.wither_loot.wither_bow": "Wither bow",
+  "tooltip.wither_loot.inflicts_wither_effect": "Inflicts withering",
+  "tooltip.wither_loot.wither_armor_set_bonus": "Indev",
 
   "itemGroup.wither_loot.witherloot_group": "Witherrrr"
 }

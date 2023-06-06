@@ -1,6 +1,5 @@
 package net.fabricmc.wither_loot;
 
-import com.google.common.eventbus.Subscribe;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.client.itemgroup.FabricItemGroupBuilder;
 import net.fabricmc.wither_loot.effect.WUEffect;
@@ -13,7 +12,6 @@ import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Items;
 import net.minecraft.util.Identifier;
-import net.minecraft.util.registry.Registry;
 import software.bernie.geckolib3.renderers.geo.GeoArmorRenderer;
 
 public class WitherMod implements ModInitializer {

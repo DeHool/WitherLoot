@@ -27,7 +27,7 @@ public class WitherToolMaterial implements ToolMaterial {
 
     @Override
     public float getAttackDamage() {
-        return ConfigInit.CONFIG.TOOL.wither_tool_attack_damage;
+        return 0F;
     }
 
     @Override
