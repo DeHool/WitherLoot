@@ -14,12 +14,17 @@ public class WitherLootConfig implements ConfigData {
 
     public static class Armor {
 
+        @ConfigEntry.Gui.RequiresRestart
+        public int wither_armor_durability_multiplier = 50;
         @ConfigEntry.BoundedDiscrete(min = 0, max = 20)
         @ConfigEntry.Gui.RequiresRestart
         public int wither_armor_protection_helmet = 7;
         @ConfigEntry.BoundedDiscrete(min = 0, max = 20)
         @ConfigEntry.Gui.RequiresRestart
         public int wither_armor_protection_chest = 10;
+        @ConfigEntry.Gui.RequiresRestart
+        @ConfigEntry.BoundedDiscrete(min = 0, max = 20)
+        public int wither_charged_armor_protection_chest = 15;
         @ConfigEntry.BoundedDiscrete(min = 0, max = 20)
         @ConfigEntry.Gui.RequiresRestart
         public int wither_armor_protection_leggings = 9;
@@ -27,17 +32,11 @@ public class WitherLootConfig implements ConfigData {
         @ConfigEntry.Gui.RequiresRestart
         public int wither_armor_protection_boots = 7;
         @ConfigEntry.Gui.RequiresRestart
-        public int wither_armor_durability_helmet = 783;
-        @ConfigEntry.Gui.RequiresRestart
-        public int wither_armor_durability_chest = 1092;
-        @ConfigEntry.Gui.RequiresRestart
-        public int wither_armor_durability_leggings = 952;
-        @ConfigEntry.Gui.RequiresRestart
-        public int wither_armor_durability_boots = 694;
-        @ConfigEntry.Gui.RequiresRestart
         public float wither_armor_toughness = 3.0F;
         @ConfigEntry.Gui.RequiresRestart
-        public float wither_armor_knockback_resistance = 1.0F;
+        public float wither_charged_armor_toughness = 5.0F;
+        @ConfigEntry.Gui.RequiresRestart
+        public float wither_armor_knockback_resistance = 0.1F;
         @ConfigEntry.Gui.RequiresRestart
         public int wither_armor_enchantability = 15;
     }
@@ -58,6 +57,4 @@ public class WitherLootConfig implements ConfigData {
         @ConfigEntry.Gui.RequiresRestart
         public int wither_tool_enchantability = 20;
     }
-
-
 }

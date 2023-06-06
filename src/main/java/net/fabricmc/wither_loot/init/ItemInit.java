@@ -5,7 +5,6 @@ import net.fabricmc.wither_loot.WitherMod;
 import net.fabricmc.wither_loot.item.*;
 import net.fabricmc.wither_loot.item.armor.custom.WitherArmorItem;
 import net.fabricmc.wither_loot.item.armor.custom.WitherArmorMaterial;
-import net.fabricmc.wither_loot.item.armor.customUpper.WiUpperArmorMaterial;
 import net.fabricmc.wither_loot.item.armor.customUpper.WiUpperItem;
 import net.fabricmc.wither_loot.item.tool.*;
 import net.fabricmc.wither_loot.item.weapon.WitherBowItem;
@@ -33,21 +32,18 @@ public class ItemInit {
     public static final WitherChargedStarItem WITHER_CHARGED_STAR_ITEM =
             new WitherChargedStarItem(new Item.Settings().fireproof().rarity(Rarity.RARE).maxCount(1).group(WitherMod.WiGroup));
 
-    // Armor
-    public static final ArmorMaterial WITHER_ARMOR_MATERIAL = WitherArmorMaterial.getInstance();
-    public static final ArmorMaterial WI_UPPER_ARMOR_MATERIAL = WiUpperArmorMaterial.getInstance();
 
     public static final Item WITHER_HELMET =
-            new WitherArmorItem(WITHER_ARMOR_MATERIAL, EquipmentSlot.HEAD, new Item.Settings().fireproof().group(WitherMod.WiGroup));
+            new WitherArmorItem(WitherArmorMaterial.WITHER_UNCHARGED, EquipmentSlot.HEAD, new Item.Settings().fireproof().group(WitherMod.WiGroup));
     public static final Item WITHER_CHESTPLATE =
-            new WitherArmorItem(WITHER_ARMOR_MATERIAL, EquipmentSlot.CHEST, new Item.Settings().fireproof().group(WitherMod.WiGroup));
+            new WitherArmorItem(WitherArmorMaterial.WITHER_UNCHARGED, EquipmentSlot.CHEST, new Item.Settings().fireproof().group(WitherMod.WiGroup));
     public static final Item WITHER_LEGGINGS =
-            new WitherArmorItem(WITHER_ARMOR_MATERIAL, EquipmentSlot.LEGS, new Item.Settings().fireproof().group(WitherMod.WiGroup));
+            new WitherArmorItem(WitherArmorMaterial.WITHER_UNCHARGED, EquipmentSlot.LEGS, new Item.Settings().fireproof().group(WitherMod.WiGroup));
     public static final Item WITHER_BOOTS =
-            new WitherArmorItem(WITHER_ARMOR_MATERIAL, EquipmentSlot.FEET, new Item.Settings().fireproof().group(WitherMod.WiGroup));
+            new WitherArmorItem(WitherArmorMaterial.WITHER_UNCHARGED, EquipmentSlot.FEET, new Item.Settings().fireproof().group(WitherMod.WiGroup));
 
     public static final Item WITHER_UPPER_CHEST =
-            new WiUpperItem(WI_UPPER_ARMOR_MATERIAL, EquipmentSlot.CHEST, new Item.Settings().fireproof().group(WitherMod.WiGroup));
+            new WiUpperItem(WitherArmorMaterial.WITHER_CHARGED, EquipmentSlot.CHEST, new Item.Settings().fireproof().group(WitherMod.WiGroup));
 
 
     // Tools
