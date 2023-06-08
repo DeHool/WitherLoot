@@ -73,7 +73,7 @@ public class ItemInit {
         Registry.register(Registry.ITEM, WitherMod.ID("wither_chestplate"), WITHER_CHESTPLATE);
         Registry.register(Registry.ITEM, WitherMod.ID("wither_leggings"), WITHER_LEGGINGS);
         Registry.register(Registry.ITEM, WitherMod.ID("wither_boots"), WITHER_BOOTS);
-        Registry.register(Registry.ITEM, WitherMod.ID("wither_upper"), WITHER_UPPER_CHEST);
+        Registry.register(Registry.ITEM, WitherMod.ID("wither_charged_chestplate"), WITHER_UPPER_CHEST);
         // Tools
         Registry.register(Registry.ITEM, WitherMod.ID("wither_pickaxe"), WITHER_PICKAXE_ITEM);
         Registry.register(Registry.ITEM, WitherMod.ID("wither_shovel"), WITHER_SHOVEL_ITEM);

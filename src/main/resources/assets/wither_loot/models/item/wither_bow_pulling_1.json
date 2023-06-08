@@ -1,0 +1,6 @@
+{
+  "parent": "wither_loot:item/wither_bow",
+  "textures": {
+    "layer0": "wither_loot:item/wither_bow_pulling_1"
+  }
+}

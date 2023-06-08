@@ -22,6 +22,9 @@
     "main": [
       "net.fabricmc.wither_loot.WitherMod"
     ],
+    "client": [
+      "net.fabricmc.wither_loot.WitherModClient"
+    ],
     "modmenu": [
       "net.fabricmc.wither_loot.config.ModMenuIntegration"
     ]

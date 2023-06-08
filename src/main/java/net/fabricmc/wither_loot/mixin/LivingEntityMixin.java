@@ -13,9 +13,9 @@ import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 
 @Mixin(LivingEntity.class)
-public abstract class WitherMixin extends Entity {
+public abstract class LivingEntityMixin extends Entity {
 
-    public WitherMixin(EntityType<?> type, World world) {
+    public LivingEntityMixin(EntityType<?> type, World world) {
         super(type, world);
     }
 
@@ -28,7 +28,7 @@ public abstract class WitherMixin extends Entity {
     @Inject(method = "getMaxHealth", at = @At(value = "INVOKE", target = "Lnet/minecraft/entity/LivingEntity;getAttributeValue(Lnet/minecraft/entity/attribute/EntityAttribute;)D"), cancellable = true)
     public void getMaxHeathMixin(CallbackInfoReturnable<Float> cir) {
         if (get().getType().equals(EntityType.WITHER)) {
-            cir.setReturnValue((float) (getAttributeValue(EntityAttributes.GENERIC_MAX_HEALTH) + 500F));
+            cir.setReturnValue((float) (getAttributeValue(EntityAttributes.GENERIC_MAX_HEALTH) + 700F));
         }
     }
 }

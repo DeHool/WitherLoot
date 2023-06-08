@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft:netherite_chestplate"
+  },
+  "addition": {
+    "item": "wither_loot:wither_ingot"
+  },
+  "result": {
+    "item": "wither_loot:wither_chestplate"
+  }
+}
