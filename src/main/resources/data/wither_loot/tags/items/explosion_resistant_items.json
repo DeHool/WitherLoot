@@ -1,6 +1,22 @@
 {
   "replace": false,
   "values": [
-    "wither_loot:wither_charged_star"
+    "wither_loot:wither_charged_star",
+    "wither_loot:wither_helmet",
+    "wither_loot:wither_chestplate",
+    "wither_loot:wither_leggings",
+    "wither_loot:wither_boots",
+    "wither_loot:wither_charged_chestplate",
+    "wither_loot:wither_pickaxe",
+    "wither_loot:wither_shovel",
+    "wither_loot:wither_axe",
+    "wither_loot:wither_hoe",
+    "wither_loot:wither_sword",
+    "wither_loot:wither_bow",
+    "wither_loot:wither_dust",
+    "wither_loot:wither_nugget",
+    "wither_loot:wither_unenriched_ingot",
+    "wither_loot:wither_ingot",
+    "minecraft:wither_skeleton_skull"
   ]
 }

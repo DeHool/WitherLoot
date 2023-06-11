@@ -17,6 +17,9 @@ public class WitherItemMixin {
             if (((ItemEntity) (Object) this).getStack().isIn(TagInit.EXPLOSION_RESIST_ITEM) && source.isExplosive()){
                 cir.setReturnValue(false);
             }
+            else if (((ItemEntity) (Object) this).getStack().isIn(TagInit.FIRE_RESIST_ITEM) && source.isFire()){
+                cir.setReturnValue(false);
+            }
         }
     }
 }

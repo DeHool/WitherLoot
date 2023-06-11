@@ -4,8 +4,10 @@
   "package": "net.fabricmc.wither_loot.mixin",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
+    "WitherBossMixin",
     "WitherItemMixin",
-    "WitherSkeletonEntityMixin"
+    "WitherSkeletonEntityMixin",
+    "WitherSkullEntityMixin"
   ],
   "client": [
     "LivingEntityMixin"
